@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Python-based open-source study of China's current nuclear capability. It analyzes public estimates of China's nuclear stockpile, compares China with other nuclear-armed states, summarizes publicly reported delivery-system modernization, and creates low/base/high scenario forecasts through 2035.
+This project is a Python-based open-source study of China's current nuclear capability. It uses public estimates to analyze China's nuclear stockpile growth, compare China with other nuclear-armed states, summarize publicly reported delivery-system modernization, and create transparent low/base/high forecast scenarios through 2035.
 
 The project also includes a finance-oriented extension that compares official Chinese defense budget figures, estimated actual military spending, and public estimates of nuclear weapons spending. Because China does not publish a dedicated nuclear weapons budget, the spending section is treated as a proxy-based analysis rather than exact accounting.
 
@@ -13,6 +13,16 @@ How has China's nuclear capability changed over the last decade, and what do cur
 ## Expanded Finance Question
 
 Is China's nuclear expansion visible in public spending estimates, and how does estimated nuclear weapons spending compare with stockpile growth?
+
+## Project Highlights
+
+- Tracks public estimates of China's nuclear warhead stockpile from 2015 to 2025
+- Compares China with other nuclear-armed states using 2025 public estimates
+- Summarizes publicly reported land-based, sea-based, and air-based delivery-system modernization
+- Builds low, base, and high stockpile scenarios through 2035
+- Adds a defense-finance section using official budgets, estimated actual military spending, and nuclear weapons spending estimates
+- Generates charts and a final Markdown report with Python
+- Includes a polished PDF report and a LinkedIn-ready presentation deck
 
 ## Project Structure
 
@@ -34,7 +44,7 @@ china_nuclear_capability_study/
 │   ├── china_nuclear_share_of_military_spending.png
 │   └── china_nuclear_spending_per_warhead.png
 ├── presentation/
-│   └── china_nuclear_capability_linkedin_slide_deck.pdf
+│   └── china_nuclear_capability_presentation.pdf
 ├── src/
 │   ├── data_loader.py
 │   ├── forecasting.py
@@ -50,10 +60,15 @@ china_nuclear_capability_study/
 
 ## How to Run
 
-From the project folder:
+From the project folder, install the required packages:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Then run the full study:
+
+```bash
 python main.py
 ```
 
@@ -134,11 +149,25 @@ Primary outputs:
 - `china_nuclear_capability_report_final.pdf`
 - `presentation/china_nuclear_capability_presentation.pdf`
 
+## Final Report
+
+The polished final report is available here:
+
+[china_nuclear_capability_report_final.pdf](china_nuclear_capability_report_final.pdf)
+
 ## Presentation
 
 A LinkedIn-ready presentation version of the project is available here:
 
 [presentation/china_nuclear_capability_presentation.pdf](presentation/china_nuclear_capability_presentation.pdf)
+
+## Tools Used
+
+- Python
+- pandas
+- matplotlib
+- Markdown
+- Public-source research and defense-budget data
 
 ## Author
 
