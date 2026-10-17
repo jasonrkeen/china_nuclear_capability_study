@@ -172,4 +172,4 @@ A LinkedIn-ready presentation version of the project is available here:
 ## Author
 
 Jason Keen  
-keenjasonr@gmail.com
+[LinkedIn](https://www.linkedin.com/in/jason-keen-1887b4218)
